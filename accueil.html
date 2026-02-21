@@ -1,97 +1,160 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>FindTutor</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FindTutor</title>
+<link rel="shortcut icon" href="image/Group 1.svg" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-        <!-- Google Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-            rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="style.css" />
-    </head>
+<!-- NAV -->
+<nav>
+    <div>
+        <img src="image/Group 1.svg" alt="" class="logo">
+    </div>
+    <ul>
+        <li><a href="">Accueil</a></li>
+        <li><a href="">Cours</a></li>
+        <li><a href="">pages</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    <button class="btn">Sign up</button>
+</nav>
 
-    <body>
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>
+            Apprenez de partout et construisez votre 
+            <span>brillante carrière</span>
+        </h1>
+        <p>Notre plateforme existe depuis des siècles et s'est adaptée à l'ère numérique</p>
+        <button class="btn" onclick="startCourse()">Commencer un cours</button>
+    </div>
 
-        <!-- HEADER -->
-        <header class="entete">
-            <nav class="nav-bar">
-                <section class="nav-list">
-                    <img src="image/Group 1.svg" alt="Logo FindTutor"
-                        class="img" />
-                    <a href="#">Connexion</a>
-                </section>
-            </nav>
-        </header>
+    <img src="image/image1.jpg" alt="Laptop">
+</section>
 
-        <!-- MAIN -->
-        <main>
+<h2 class="section-title">Cours <span>FindTutor</span></h2>
 
-            <!-- SECTION DESCRIPTION -->
-            <section class="section-description">
-                
-                <!-- TITRE -->
-                <div class="title">
-                    <h2>
-                        <span class="color-title">Find</span>Tutor
-                    </h2>
-                    <h3>Trouvez le bon prof, au bon moment.</h3>
-                </div>
+<!-- COURS -->
+<section class="courses">
+    <div class="course-grid">
+        <div class="card">
+            <img src="image/mathematique.jpg" alt="">
+            <h3>Mathematique</h3>
+            <p class="price">2500f</p>
+        </div>
 
-                <!-- CONTENU -->
-                <div class="description">
-                    <img
-                        src="image/image-de-personne.png"
-                        alt="Étudiants et enseignants"
-                        class="img-description" />
+        <div class="card">
+            <img src="image/informatique1.jpg" alt="">
+            <h3>Informatique</h3>
+            <p class="price">3000f</p>
+        </div>
 
-                    <p>
-                        FindTutor vous aide à trouver rapidement le professeur
-                        idéal selon votre niveau, votre matière et votre
-                        disponibilité. Apprenez mieux, au bon moment.
-                    </p>
-                    
-                </div>
+        <div class="card">
+            <img src="image/UI/UX_DESIGNE.jpg" alt="">
+            <h3>UI/UX Designe</h3>
+            <p class="price">2500f</p>
+        </div>
 
-                <div class="description2">
-                    <img src="image/image.png"
-                        alt="Etudiant" class="img-description">
-                    <p>envie d’apprendre avec les meilleurs professeur du monde
-                        ? findTutor est là pour toi ! Tu prgresseras dans les
-                        meilleurs condition et tu seras suivie par les meilleurs
-                        professeur du monde pour un meilleur rendu</p>
-                </div>
+        <div class="card">
+            <img src="image/Python.jpg" alt="">
+            <h3>Python</h3>
+            <p class="price">5500f</p>
+        </div>
 
-                <div class="container-image">
+        <div class="card">
+            <img src="image/physique.jpg" alt="">
+            <h3>Physiques</h3>
+            <p class="price">2500f</p>
+        </div>
+    </div>
 
-                    <h2 class="titre">Savoir faire</h2>
-                    <ul class="image-list">
-                        <li class="list">
-                            <img src="image/image1.png" alt="" class="image">
-                            <h3>Apprenez seul</h3>
-                        </li>
-                        <li class="list">
-                            <img src="image/image3.png" alt="" class="image">
-                            <h3>Revisez n'importe où</h3>
-                        </li>
-                        <li class="list">
-                            <img src="image/image4.png" alt="" class="image">
-                            <h3>Apprenez avec les meilleurs mentors</h3>
-                        </li>
-                    </ul>
+    <div class="more">
+        <a href="">plus ➜</a>
+    </div>
+</section>
 
-                </div>
+<section class="pages">
+    <h3 class="section-title">Nos pages</h3>
 
-            </section>
+    <div class="pages-grid">
+        <div class="pages-box">
+            <h4>A propos de nous</h4>
+            <p>Découvrez notre mission et notre vision</p>
+        </div>
 
-        </main>
+        <div class="pages-box">
+            <h4>Nos Formateurs</h4>
+            <p>Rencontrez nos experts et mentors, ce sont les melleurs sur le marcher du travail </p>
+        </div>
 
-    </body>
+        <div class="pages-box">
+            <h4>Nos certifications</h4>
+            <p>Découvrez des certifications qui vous permettrons de rejoindre le marcher de l'emplois avec un bagages intelectuel lourds</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact-section">
+    <h2>Contactez l'administrateur</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Votre nom" required>
+        <input type="email" id="email" placeholder="Votre email" required>
+        <input type="text" id="subject" placeholder="Sujet" required>
+        <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+
+        <button type="submit" class="button">Envoyer</button>
+    </form>
+</section>
+
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- Logo + Description -->
+        <div class="footer-box">
+            <img src="image/Group 1.svg" class="logo1">
+            <p>
+                Apprenez de partout et construisez votre brillante carrière
+                avec nos meilleurs formateurs.
+            </p>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p>Email : christamien@gmail.com</p>
+            <p>Téléphone : +225 07 06 52 80 67</p>
+            <p>Abidjan, Côte d'Ivoire</p>
+        </div>
+
+        <!-- Réseaux sociaux -->
+        <div class="footer-box">
+    <h3>Suivez-nous</h3>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 FindTutor | Tous droits réservés
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
